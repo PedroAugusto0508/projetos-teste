@@ -5,8 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Web incluindo Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    
+    <header >
+        <h1 id="titulo">
+            Página de Cadastro de Devs
+        </h1>
+    </header>
+
+    <div>
+
+        
+         <form autocomplete="off">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome:</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome:</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email"><strong>Email:</strong></label>
+                    <input type="email" name="email" id="email" required> 
+                </div>
+            </fieldset>
+             
+            <div class="campo">
+                <label><strong>De qual lado da aplicação voce desenvolve?</strong></label>
+
+                <label for="frontend">
+                        <input type="radio" name="devweb" id="frontend" checked><strong>Front-end</strong>
+                </label>
+                
+                <label for="backend">
+                    <input type="radio" name="devweb" id="backend"><strong>Back-end</strong>
+                </label>
+
+                <label for="fullstack">
+                    <input type="radio" name="devweb" id="fullstack"><strong>Full-stack</strong>
+                </label>
+            </div>
+
+            <div class="campo">
+                <label><strong>Senioridade</strong></label>
+                <select name="niveldesenioridade" id="senioridade">
+
+                    <option value="" selected disabled>Selecione</option>
+                    <option value="junior">Junior</option>
+                    <option value="pleno">Pleno</option>
+                    <option value="senior">Senior</option>
+                </select>
+
+            </div>
+
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for=""><strong>Selecione as Tecnologias que voce utiliza:</strong></label><br><br>
+
+                    <input type="checkbox" name="tecnologia1" id="tecnologia1">
+                    <label for="tecnologia1"><strong>HTML</strong></label>
+
+                    <input type="checkbox" name="tecnologia2" id="tecnologia2">
+                    <label for="tecnologia2"><strong>CSS</strong></label>
+
+                    <input type="checkbox" name="tecnologia3" id="tecnologia3">
+                    <label for="tecnologia2"><strong>Javascript</strong></label>
+
+                    <input type="checkbox" name="tecnologia4" id="tecnologia4">
+                    <label for="tecnologia4"><strong>PHP</strong></label>
+
+                    <input type="checkbox" name="tecnologia5" id="tecnologia5">
+                    <label for="tecnologia5"><strong>C#</strong></label>
+                    
+                    <input type="checkbox" name="tecnologia6" id="tecnologia6">
+                    <label for="tecnologia6"><strong>Python</strong></label>
+
+                    <input type="checkbox" name="tecnologia7" id="tecnologia7">
+                    <label for="tecnologia7"><strong>Java</strong></label>
+                </div>
+
+                
+
+            </fieldset>
+            
+            <div class="campo">
+                <br>
+                <label for=""><strong>Conte um pouco da sua experiencia:</strong></label>
+                <textarea name="experiencia" id="experiencia" cols="30" rows="7"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar" class="botao">
+        </form>
+        
+
+    </div>
+
+    <footer>
+
+    </footer>
+
 </body>
 </html>
