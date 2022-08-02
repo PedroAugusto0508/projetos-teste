@@ -4,3 +4,86 @@
     margin: 0px;
     padding: 0px;
 }
+
+h1#titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(250, 116, 7);
+    font-size: 3em;
+    text-align: center;
+}
+
+div#subtitulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 1.2em;
+    text-indent: 1cm;
+    margin: auto;
+    width: 70vw;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+
+}
+
+div.campo{
+    margin: 10px 0px 10px 0px;
+}
+
+input, select, textarea, button, fieldset{
+    border-radius: 5px;
+}
+    
+    
+
+label{
+    margin-left: 10px;
+
+}
+
+input.nome{
+    width: 30vw;
+}
+
+input.botao{
+    background-color: rgb(250, 116, 7);
+    color: white;
+    width: 8vw;
+    height: 4vh;
+}
+
+textarea{
+    width: 50vw;
+}
+
+
+
+
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50vw;
+    margin: auto;
+    
+}
+
+.campo input[type="radio"]{
+    display: block;
+}
+
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+footer > p{
+    text-align: center;
+}
+
+footer,a{
+    background-color: black;
+    color: white;
+
+}
+a:hover{
+    color:rgb(250, 116, 7) ;
+}
