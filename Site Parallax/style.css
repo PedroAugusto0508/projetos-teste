@@ -3,4 +3,91 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    background-image: url(imagens/imagem-fundo2-jpg.jpg);
+    height: 100vh;
+
+}
+
+#logo{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    width: 150px;
+    padding: 20px;
+    
+}
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    
+}
+#menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+#pag1{
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#titulo{
+    color: white;
+    font-size: 3em;
+    padding: 10px;
+}
+
+#subtitulo{
+    color: white;
+    font-size: 1em;
+    font-weight: 550;
+    padding-bottom: 10px;
+}
+
+#botao1{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 30px;
+    border-style: double;
+    width: 150px;
+    height: 40px;
+    font-weight: 700;
+}
+
+#pag2{
+    height: 100vh;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+#pag2 h2{
+    text-align: center;
+    font-size: 3em;
+    padding: 40px 0px 40px 0px;
+}
+
+#pag2 p{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
 }
