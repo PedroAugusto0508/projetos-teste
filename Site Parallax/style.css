@@ -6,9 +6,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main{
+#paginicial{
     background-image: url(imagens/imagem-fundo2-jpg.jpg);
-    height: 100vh;
+    height: 1000px;
 
 }
 
@@ -42,7 +42,7 @@ main{
 
 
 #pag1{
-    height: 100vh;
+    height: 1000px;
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -51,6 +51,7 @@ main{
 }
 
 #titulo{
+    text-align: center;
     color: white;
     font-size: 3em;
     padding: 10px;
@@ -75,9 +76,10 @@ main{
 }
 
 #pag2{
-    height: 100vh;
+    height: max-content;
     background-color: white;
     color: rgba(0, 0, 0, 0.747);
+    padding-bottom: 50px;
 }
 
 #pag2 h2{
@@ -86,8 +88,149 @@ main{
     padding: 40px 0px 40px 0px;
 }
 
-#pag2 p{
+#paragrafo{
     text-align: center;
     font-size: 1em;
     font-weight: 600;
 }
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 70px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+#bloco1{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+}
+
+#bloco2{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+#bloco3{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+#bloco4{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.descriçao{
+    font-weight: 300;
+    padding-top: 20px;
+    line-height: 2em;
+}
+
+.nameservice{
+    font-weight: bold;
+}
+
+#pag3{
+    height: max-content;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#pag3 h2{
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#pag3 p{
+    text-align: center;
+    height: max-content;
+}
+
+#container2{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    
+    
+}
+
+#container2 div{
+    
+    height: 600px;
+    width: 400px;
+    
+}
+
+#imagem1{background-image: url(imagens/imagem1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+}
+
+#imagem2{
+    background-image: url(imagens/imagem2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+#imagem3{
+    background-image: url(imagens/imagem3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+}
+
+#pag4 {
+    height: 700px;
+    background-image: url(imagens/imagem-fundo3.jpg);
+    background-attachment: fixed;
+    }
+
+#container3{
+    text-align: center;
+    height: 700px;
+    font-size: 2.5em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#botao2 {
+    background-color: orangered;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    border-color: black;
+    font-weight: 600;
+
+}
+
